@@ -5,10 +5,11 @@
         </nav>
         <nav>
             <ul>
-                @foreach ($links as $link )
-                <li class="{{$link['active'] ? 'active' : ''}}">
-                    {{$link['name']}}
-                </li>
+                @foreach ($links as $link)
+                    <li class="{{$link['active']? 'active' : ''}}">
+                        {{ $link['name'] }}
+                    </li>
+                @endforeach
             </ul>
         </nav>
     </section>
