@@ -1,4 +1,4 @@
-@extends('layaouts.app')
+@extends('layouts.app')
 
 @section('page-title','Laravel Comics')
 
@@ -39,5 +39,4 @@
             </li>
             </ul>
     </section>
-
 @endsection
