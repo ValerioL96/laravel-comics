@@ -1,0 +1,26 @@
+div{
+    background-color: #0282f9;
+    padding: .6rem 3rem;
+    align-self: center;
+    margin-bottom: 1rem;
+    p{
+        text-transform: uppercase;
+        color: white;
+    };
+};
+
+article.series_comics{
+    width: calc((100% / 6) - .8rem);
+    margin-right: .8rem;
+    margin-bottom: 3rem;
+
+    img{
+        width: 100%;
+        aspect-ratio: 1/1;
+        margin-bottom: .7rem;
+
+    };
+    p{
+        color: white;
+    }
+}

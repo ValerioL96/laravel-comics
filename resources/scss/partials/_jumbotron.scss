@@ -1,0 +1,24 @@
+section.container-jumbo{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+        div{
+            background-color: #0282f9;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 268px;
+            left: 170px;
+            p{
+                text-transform: uppercase;
+                color: white;
+                font-size: 1.5rem
+            };
+        }
+}
